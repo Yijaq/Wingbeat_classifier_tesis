@@ -189,6 +189,10 @@ cython_debug/
 *.sql
 *.sqlite
 
+# Matlab
+######################
+*.asv
+
 # OS generated files #
 ######################
 .DS_Store
