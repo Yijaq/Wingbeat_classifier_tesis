@@ -15,8 +15,8 @@ from tensorflow.keras.layers import Input,Conv2D,MaxPooling2D
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping
 
-!unzip -q '/content/drive/MyDrive/Colab Notebooks/Spectrogram80x80.zip'
-!mv Spectrogram80x80 /content/Data
+unzip -q '/content/drive/MyDrive/Colab Notebooks/Spectrogram80x80.zip'
+mv Spectrogram80x80 /content/Data
 
 train_valid_frame = pd.read_csv('/content/Data/name_label.txt',sep=' ',header=None)
 train_valid_frame.columns = ['files','labels']
