@@ -23,8 +23,7 @@ def calcular_ic_folds(rendimientos, confianza=0.95):
     
     return media, intervalo
 
-# --- EJEMPLO DE USO ---
-# Supongamos que estas son las precisiones obtenidas en tus 10 folds para el Escalograma
+# Precisiones obtenidas en 5 folds para el Escalograma
 hd_scalogram_vgg13_folds = [0.8317, 0.8378, 0.8457, 0.8316, 0.8359]
 hd_scalogram_vgg16_folds = [0.8358, 0.8363, 0.8360, 0.8348, 0.8278]
 hd_scalogram_vgg19_folds = [0.8319, 0.8273, 0.8408, 0.8296, 0.8213]

@@ -14,15 +14,9 @@ Aplicado a clasificación de mosquitos con escalogramas wavelet
 import numpy as np
 from scipy import stats
 
-# ─────────────────────────────────────────────
-# DATOS DE EJEMPLO
-# Reemplaza estos arrays con tus métricas reales
-# (e.g., accuracy por fold en validación cruzada)
-# ─────────────────────────────────────────────
 
 np.random.seed(42)
 
-# Simulación de 10 folds de validación cruzada
 # Cada valor representa la accuracy del modelo en ese fold
 spectrogram   = np.array([0.8108, 0.8029, 0.8053, 0.8000, 0.8123])
 
